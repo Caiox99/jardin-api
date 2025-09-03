@@ -1,0 +1,5 @@
+mkdir rota-app && cd rota-app
+npm init -y
+npm install express cors
+npm install -D typescript ts-node @types/node @types/express @types/cors
+npx tsc --init
