@@ -1,17 +1,19 @@
+
 export interface CreateRentalDTO {
   origem: string;       
-  destino: string;      
-  distancia: string;   
-  tempo: string;    
+  destino: string;     
+  distancia: string;    
+  tempo: string;        
 }
+
 export interface RentalResponseDTO {
-  id: string;           
+  id: string;          
   origem: string;
   destino: string;
   distancia: string;
   tempo: string;
-  createdAt: Date;     
-}
+  createdAt: Date;    
+  
 export interface UpdateRentalDTO {
   origem?: string;
   destino?: string;
